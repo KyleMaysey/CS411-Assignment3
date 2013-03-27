@@ -18,6 +18,7 @@
 		760C215E1702A440005A396E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 760C215D1702A440005A396E /* Default-568h@2x.png */; };
 		760C21611702A440005A396E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 760C215F1702A440005A396E /* MainStoryboard.storyboard */; };
 		760C21641702A440005A396E /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 760C21631702A440005A396E /* CalculatorViewController.m */; };
+		760C216C1702A495005A396E /* CalculatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 760C216B1702A495005A396E /* CalculatorModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		760C21601702A440005A396E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		760C21621702A440005A396E /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		760C21631702A440005A396E /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		760C216A1702A495005A396E /* CalculatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorModel.h; sourceTree = "<group>"; };
+		760C216B1702A495005A396E /* CalculatorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				760C215F1702A440005A396E /* MainStoryboard.storyboard */,
 				760C21621702A440005A396E /* CalculatorViewController.h */,
 				760C21631702A440005A396E /* CalculatorViewController.m */,
+				760C216A1702A495005A396E /* CalculatorModel.h */,
+				760C216B1702A495005A396E /* CalculatorModel.m */,
 				760C214E1702A440005A396E /* Supporting Files */,
 			);
 			path = Calculator;
@@ -177,6 +182,7 @@
 				760C21541702A440005A396E /* main.m in Sources */,
 				760C21581702A440005A396E /* CalculatorAppDelegate.m in Sources */,
 				760C21641702A440005A396E /* CalculatorViewController.m in Sources */,
+				760C216C1702A495005A396E /* CalculatorModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
